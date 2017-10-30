@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Delta Data Mover</string>
+    <string-array name="marr">
+        <item>Austin</item>
+        <item>Jabalpur</item>
+    </string-array>
+    <string-array name="darr">
+        <item>Open Camera</item>
+        <item>Open facebook</item>
+        <item>My location</item>
+    </string-array>
+</resources>

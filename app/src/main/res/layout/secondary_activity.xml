@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:background="#86C664"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+        <TextView
+            android:id="@+id/nameText"
+
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="7"
+            android:padding="2dp"
+            android:background="#D2486F"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"/>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:gravity="left"
+            android:padding="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="7"
+
+            android:layout_below= "@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_height="45dp"
+            android:background="#4b5e9c"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp">
+
+        </Spinner>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"/>
+        <Button
+            android:id="@+id/nButon"
+            android:text="go"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:background="#86C664"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/buton"
+            android:text="Return to Dashboard"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
